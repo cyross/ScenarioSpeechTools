@@ -1,0 +1,27 @@
+"version": 1.0
+"scenario_file": "serifu.txt"
+"output_file": "serifu_{}.txt"
+"jimaku_file": "jimaku.txt"
+"voice_engine":
+  "VV":
+    "Name": "VOICEVOX"
+    "Separator": ","
+  "VR":
+    "Name": "VOICEROID2"
+    "Separator": "＞"
+  "VP":
+    "Name": "VOICEPEAK"
+    "Separator": ","
+  "CC":
+    "Name": "CeVIO CS"
+    "Separator": ","
+  "CA":
+    "Name": "CeVIO AI"
+    "Separator": ","
+"voice_actor":
+  "ずんだもん": "VV"
+  "ずんだもん(あまあま)": "VV"
+  "ずんだもん(ツンツン)": "VV"
+  "ずんだもん(セクシー)": "VV"
+  "ずんだもん(ささやき)": "VV"
+  "ずんだもん(ヒソヒソ)": "VV"
