@@ -31,12 +31,12 @@ if __name__ == "__main__" or len(sys.argv < 2):
         with open(jimaku_file_path, 'w', encoding='utf-8') as jimaku_file:
             for serifu_line in serifu_file:
                 serifu_line = serifu_line.rstrip('\n')
-                serifu_pair = serifu_line.split(',')
-                if len(serifu_pair) == 2:
+                serifu_pair = serifu_line.split(',', maxsplit = 1) # 声優名だけを分離
+                if len(serifu_pair) == 2 and current_actor in config['voice_actor']:
                     current_actor = serifu_pair[0]
                     current_serifu = serifu_pair[1]
-                else: # len(serifu_pair) == 0
-                    current_serifu = serifu_pair[0]
+                else: # 声優名を省略している場合は、先に指定した声優名を引き継いで使用
+                    current_serifu = serifu_line
 
                 voice_engine = config['voice_actor'][current_actor]
                 separator = config['voice_engine'][voice_engine]['Separator']
@@ -47,7 +47,7 @@ if __name__ == "__main__" or len(sys.argv < 2):
                     streams[voice_engine] = open(output_file_path, 'w', encoding='utf-8')
 
                 streams[voice_engine].write('{}{}{}\n'.format(current_actor, separator, current_serifu))
-                jimaku_file.write('{}\n'.format(current_serifu))
+                jimaku_file.write('{}:{}\n'.format(current_actor, current_serifu))
 
     for stream in streams.values():
         stream.close()
