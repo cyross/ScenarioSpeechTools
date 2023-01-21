@@ -1,0 +1,2 @@
+# ScenarioSpeechSeparater
+一つのセリフファイルを音声合成ソフト別に振り分け保存
