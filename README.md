@@ -1,6 +1,6 @@
 # ScenarioSpeechSeparator
 
-一つのセリフファイルを音声合成ソフト別に振り分け保存
+2023.1.22 Cyross Makoto
 
 ## 概要
 
