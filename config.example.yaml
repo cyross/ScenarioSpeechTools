@@ -1,7 +1,13 @@
 "version": 1.0
-"scenario_file": "serifu.txt"
-"output_file": "serifu_{}.txt"
+"serifu_file": "serifu.txt"
+"serifu_per_engine_file": "serifu_{0}.txt"
 "jimaku_file": "jimaku.txt"
+"rename_digits": 7
+"renamed_output_dir": "all"
+"supported_audio_file_ext":
+  - ".wav"
+  - ".mp3"
+  - ".ogg"
 "voice_engine":
   "VV":
     "Name": "VOICEVOX"
@@ -18,6 +24,14 @@
   "CA":
     "Name": "CeVIO AI"
     "Separator": ","
+"serifu_file_encoding": "utf-8"
+"output_file_encoding":
+  "jimaku": "utf-8"
+  "VV": "utf-8"
+  "VR": "shift_jis"
+  "VP": "utf-8"
+  "CC": "utf-8"
+  "CA": "utf-8"
 "voice_actor":
   "四国めたん": "VV"
   "四国めたん(ノーマル)": "VV"
@@ -89,13 +103,13 @@
   "ずんだもん": "VP"
   "フリモメン": "VP"
   "東北ずん子": "VP"
-  "女声1": "VP"
-  "女声2": "VP"
-  "女声3": "VP"
+  "女性1": "VP"
+  "女性2": "VP"
+  "女性3": "VP"
   "女の子": "VP"
-  "男声1": "VP"
-  "男声2": "VP"
-  "男声3": "VP"
+  "男性1": "VP"
+  "男性2": "VP"
+  "男性3": "VP"
   "さとうささら": "CC"
   "小春六花": "CA"
   "ロサ(ROSA)": "CA"
