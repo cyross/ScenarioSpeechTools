@@ -13,6 +13,15 @@ def load_config_file(config_file_path = './config.yaml', encoding = 'utf-8'):
         config = yaml.safe_load(yaml_file)
     return config
 
+def project_dir_status(project_name, config):
+    project_dir = os.path.join(config['project_base_dir'], project_name)
+
+    return [project_name, project_dir, os.path.exists(project_dir)]
+
+def create_project_base_dir(config):
+    if not os.path.exists(config['project_base_dir']):
+        os.mkdir(config['project_base_dir'])
+
 def sanitarily_actor_name(actor_name):
     return re.sub(r'[:\.\s\(\)\[\]\\\/]+', '_', actor_name)
 

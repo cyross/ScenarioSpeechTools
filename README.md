@@ -132,7 +132,7 @@ python create_scenario_speech_project.py MyProject001
 - フォルダ・ファイル群
 
 ```txt
-./MyProject001
+./projects/MyProject001
   + output
     + VP
     + VR
@@ -184,7 +184,7 @@ VEGASでのボイロ系動画を作成するために、複数エンジンで準
 あとは、コマンドラインでスクリプトを実行すればOK！
 
 ```bash
-python scenario_speech_separator.py (プロジェクトフォルダへのパス)
+python scenario_speech_separator.py (プロジェクト名)
 ```
 
 コマンドライン引数の"./"は、serifu.txtが設置されているディレクトリ名を指す。
@@ -198,7 +198,7 @@ python scenario_speech_separator.py ./MyProject001
 上記のコマンドで実行した際、以下のように生成される。
 
 ```txt
-./MyProject001
+./projects/MyProject001
   + output
     + VP
     + VR
@@ -236,7 +236,7 @@ python scenario_speech_separator.py ./MyProject001
 #### 1.speech_audio_file_renamer.pyの実行
 
 ```bash
-python speech_audio_file_renamer.py (プロジェクトフォルダへのパス)
+python speech_audio_file_renamer.py (プロジェクト名)
 ```
 
 ##### 1-2.SpeechAudioFileRenamerで作成されるファイル群
@@ -252,7 +252,7 @@ python speech_audio_file_renamer.py ./MyProject001
 - フォルダ・ファイル群
 
 ```txt
-./MyProject001
+./projects/MyProject001
   + output
     + VP_(声優名)
       + 1.wav

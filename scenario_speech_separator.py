@@ -8,13 +8,13 @@ from utility import *
 # シナリオファイルセパレーター
 
 if __name__ == '__main__' or len(sys.argv < 2):
-    project_dir = sys.argv[1]
+    config = load_config_file()
 
-    if not os.path.exists(sys.argv[1]):
+    project_name, project_dir, dir_exist = project_dir_status(sys.argv[1], config)
+
+    if not dir_exist:
         print(f'project directory is not exist! : {project_dir}')
         quit()
-
-    config = load_config_file()
 
     serifu_file_path = os.path.join(project_dir, config['input_dir'], config['serifu_file'])
 

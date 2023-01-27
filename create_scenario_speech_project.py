@@ -8,19 +8,19 @@ from utility import *
 # シナリオプロジェクト作成
 
 if __name__ == '__main__' or len(sys.argv < 2):
-    project_name = sys.argv[1]
+    config = load_config_file()
 
-    project_dir = os.path.join('.', project_name)
+    project_name, project_dir, dir_exist = project_dir_status(sys.argv[1], config)
 
-    if os.path.exists(project_dir):
+    if dir_exist:
         print(f'project folder is already exist! : {project_name}')
         quit()
-
-    config = load_config_file()
 
     voicepeak_actors = create_voicepeak_actor_list(config)
 
     print('generating project folder...')
+
+    create_project_base_dir(config)
 
     os.mkdir(project_dir)
 

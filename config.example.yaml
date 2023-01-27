@@ -1,4 +1,5 @@
 "version": 1.0
+"project_base_dir": './projects/'
 "serifu_file": "serifu.txt"
 "serifu_per_engine_file": "serifu_{0}.txt"
 "jimaku_file": "jimaku.txt"
