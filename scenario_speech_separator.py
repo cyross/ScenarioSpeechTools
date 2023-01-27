@@ -3,7 +3,7 @@
 
 import sys
 import os
-import yaml
+from utility import *
 
 # シナリオファイルセパレーター
 
@@ -14,17 +14,15 @@ if __name__ == '__main__' or len(sys.argv < 2):
         print(f'project directory is not exist! : {project_dir}')
         quit()
 
-    config = None
-    with open('./config.yaml', 'r', encoding='utf-8') as yaml_file:
-        config = yaml.safe_load(yaml_file)
+    config = load_config_file()
 
     serifu_file_path = os.path.join(project_dir, config['input_dir'], config['serifu_file'])
 
     if not os.path.exists(serifu_file_path):
+        print(f'serifu file is not exist! : {serifu_file_path}')
         quit()
 
-    jimaku_file_path = os.path.join(
-        project_dir, config['input_dir'], config['jimaku_file'])
+    jimaku_file_path = os.path.join(project_dir, config['input_dir'], config['jimaku_file'])
     streams = {}
     current_actor = list(config['voice_actor'].keys())[0]
     current_serifu = ''
@@ -47,14 +45,26 @@ if __name__ == '__main__' or len(sys.argv < 2):
                     current_serifu = serifu_line
 
                 voice_engine = config['voice_actor'][current_actor]
+
+                # voice_engineが"VP(VOICEPEAK)"の場合は、声優名も追加し、セリフファイルから声優名を削除
+                # (VOICEPEAKの場合は1声優のみのため)
+                stream_key = voice_engine
+                if voice_engine == "VP":
+                    stream_key = f'{voice_engine}_{current_actor}'
+
                 separator = config['voice_engine'][voice_engine]['Separator']
 
-                if not voice_engine in streams:
-                    serifu_per_engine_filename = config['serifu_per_engine_file'].format(voice_engine)
+                if not stream_key in streams:
+                    serifu_per_engine_filename = config['serifu_per_engine_file'].format(sanitarily_actor_name(stream_key))
                     serifu_per_engine_file_path = os.path.join(project_dir, config['input_dir'], serifu_per_engine_filename)
-                    streams[voice_engine] = open(serifu_per_engine_file_path, 'w', encoding=config['output_file_encoding'][voice_engine])
+                    streams[stream_key] = open(serifu_per_engine_file_path, 'w', encoding=config['output_file_encoding'][voice_engine])
 
-                streams[voice_engine].write(f'{current_actor}{separator}{current_serifu}\n')
+                # voice_engineが"VP(VOICEPEAK)"の場合は、声優名を省略
+                # (VOICEPEAKの場合は1声優のみのため)
+                if voice_engine == "VP":
+                    streams[stream_key].write(f'{current_serifu}\n')
+                else:
+                    streams[stream_key].write(f'{current_actor}{separator}{current_serifu}\n')
                 jimaku_file.write(f'{current_actor}:{current_serifu}\n')
 
     for stream in streams.values():
