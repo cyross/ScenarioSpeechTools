@@ -3,10 +3,7 @@
 
 import sys
 import os
-import yaml
-import pathlib
-import re
-from . import utility
+from utility import *
 
 # シナリオプロジェクト作成
 
@@ -19,11 +16,9 @@ if __name__ == '__main__' or len(sys.argv < 2):
         print(f'project folder is already exist! : {project_name}')
         quit()
 
-    config = None
-    with open('./config.yaml', 'r', encoding='utf-8') as yaml_file:
-        config = yaml.safe_load(yaml_file)
+    config = load_config_file()
 
-    voicepeak_actors = utility.create_voicepeak_actor_list(config)
+    voicepeak_actors = create_voicepeak_actor_list(config)
 
     print('generating project folder...')
 
@@ -39,7 +34,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
     print('generating serifu file...')
 
-    pathlib.Path.touch(serifu_filepath)
+    create_serifu_file(serifu_filepath)
 
     output_dir = os.path.join(project_dir, config['output_dir'])
 
@@ -49,9 +44,9 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
     for voice_engine_key in config['voice_engine'].keys():
         if voice_engine_key == "VP":
-            utility.create_voicepeak_dir(voice_engine_key, voicepeak_actors)
+            create_voicepeak_dir(voice_engine_key, voicepeak_actors, output_dir)
         else:
-            utility.create_voice_engine_dir(voice_engine_key)
+            create_voice_engine_dir(voice_engine_key, output_dir)
 
     print('generating renamed output file folder...')
 
