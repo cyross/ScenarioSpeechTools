@@ -28,6 +28,12 @@ Python3が動く環境なら全て動く。
 - Python 3.11
 - PyYAML
 
+- VOICEROID2
+- VOICEPEAK
+- CeVIO AI
+- CeVIO CS7
+- VOICEVOX
+
 ## ファイル構成
 
 本システムの初期構成は以下の通り。
