@@ -1,28 +1,51 @@
-# ScenarioSpeechTool
+# ボイロ系動画作成支援システム
 
-2023.1.22 Cyross Makoto
+2023.1.27 Cyross Makoto
 
 ## 概要
 
 VEGASでボイロ系動画を作成するための便利ツール集。
+ツール全体で「ボイロ系動画作成支援システム(以降、本システム)」と称する
 
-本プロジェクトは、以下のツールで構成されている。
+本システムは、以下の3つのツールで構成されている。
 
 - CreateScenarioSpeechProject
+  - セリフや字幕、出力音声ファイルを「プロジェクト」として管理している
+  - そのためのフォルダやファイルを作成して、初期状態を構築する
 - ScenarioSpeechSeparator
+  - 一つのセリフファイルから、音声合成エンジン・声優別にファイルを振り分ける
+  - 同時に、字幕用のファイルも生成する
 - SpeechAudioFileRenamer
+  - 動画編集ソフトの貼り付けのため、音声ファイルを一つのフォルダにまとめる
+  - セリフの順番に音声ファイル名を連番に付け替える
 
 ## 動作環境
 
-Python3が動く環境なら全て動く（はず）。
+Python3が動く環境なら全て動く。
 当方で開発している環境は以下のもの。
 
+- Windows10 Pro x64
 - Python 3.11
 - PyYAML
 
+## ファイル構成
+
+本システムの初期構成は以下の通り。
+
+```text
+. - config.example.yaml               # コンフィグファイルの雛形。config.yamlとして保存する
+  - create_scenario_speech_project.py # CreateScenarioSpeechProject
+  - scenario_speech_separator.py      # ScenarioSpeechSeparator
+  - speech_audio_file_renamer.py      # SpeechAudioFileRenamer
+  - utility.py                        # ユーティリティ関数群
+  - LICENSE                           # ライセンスファイル(MITライセンス)
+  - README.md                         # 本ファイル
+  - .gitignore                        # git管理用
+```
+
 ## 事前準備
 
-本プロジェクトを使用する際は、事前に以下の準備をしておく。
+本システムを使用する際は、事前に以下の準備をしておく。
 
 ### 1.Python3のインストール
 
@@ -179,7 +202,7 @@ python scenario_speech_separator.py ./MyProject001
     + all
   + input
     + serifu.txt
-    + serifu_VP.txt # 追加したファイル
+    + serifu_VP_(声優名).txt # 追加したファイル。声優名毎にファイルが作られる
     + serifu_VR.txt # 追加したファイル
     + serifu_VV.txt # 追加したファイル
     + serifu_CA.txt # 追加したファイル
@@ -189,6 +212,7 @@ python scenario_speech_separator.py ./MyProject001
 
 - serifu_(エンジンの略称).txt : 各音声合成エンジン毎に振り分けたセリフファイル
   - serifu.txt中に対応する声優がある場合のみ作られる
+  - VOICEPEAKでのセリフの流し込みは1声優のみのため、声優別にファイルが作られる
 - jimaku.txt : 字幕流し込み用ファイル
 
 ## SpeechAudioFileRenamer
@@ -224,7 +248,7 @@ python speech_audio_file_renamer.py ./MyProject001
 ```txt
 ./MyProject001
   + output
-    + VP
+    + VP_(声優名)
       + 1.wav
       + 2.wav
       :
@@ -255,7 +279,7 @@ python speech_audio_file_renamer.py ./MyProject001
 ```
 
 - output : 音声合成エンジンによって生成された音声ファイルの保存場所
-- output/(VP|VR|VV|CA|CC) : 各音声合成エンジン毎にディレクトリを分けて保存
+- output/(VP_(声優名)|VR|VV|CA|CC) : 各音声合成エンジン毎にディレクトリを分けて保存
 - output/all : 最終的にVEGASのオーディオトラックに流し込む音声ファイルを保存する場所
   - speech_audio_file_renamer.pyで使う
   - ファイル名は以下の書式で保存される
@@ -279,13 +303,21 @@ python speech_audio_file_renamer.py ./MyProject001
 
 ### 免責事項
 
-本ドキュメントに登場する商品名は各ステークホルダーが権利を所持しております。
+本システムは、MITライセンス下のもと、使用や再配布が可能です。
+
+できれば、利用報告をいただけると当方が喜びます。
+
+但し、本ドキュメントに登場する商品名は各ステークホルダーが権利を所持しております。
+
 このスクリプトでは、各エンジン・声優の利用条件を遵守いたします。
+
 本プロジェクト内で使用しているエンジン名・声優名は、データのキーワードとして使用しており、権利を侵害する目的で使用していないことを誓います。
+
 そのため、**本プロジェクトを使用しての各エンジン・声優の許諾範囲を超える動画を作らないよう、強くお願い致します。**
+
 各音声合成エンジン・各声優については、それぞれの許諾範囲をご確認ください。
 
 ## おまけ・VOICEROID2,CeVIOでのアドバイス
 
-VOICEROID2,CeVIOでは、音声ファイルを書き出す際に、セリフの両端に無音部分を作ることができる。
-他のエンジンでは無音部分はつくらないため、それに合わせたほうが余計なことを考えずに済むので、設定で間隔を0にすることをお勧めする。
+- VOICEROID2,CeVIOでは、音声ファイルを書き出す際に、セリフの両端に無音部分を作ることができる。
+- 他のエンジンでは無音部分はつくらないため、それに合わせたほうが余計なことを考えずに済むので、設定で間隔を0にすることをお勧めする。
