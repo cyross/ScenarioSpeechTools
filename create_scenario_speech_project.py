@@ -5,6 +5,8 @@ import sys
 import os
 import yaml
 import pathlib
+import re
+from . import utility
 
 # シナリオプロジェクト作成
 
@@ -20,6 +22,8 @@ if __name__ == '__main__' or len(sys.argv < 2):
     config = None
     with open('./config.yaml', 'r', encoding='utf-8') as yaml_file:
         config = yaml.safe_load(yaml_file)
+
+    voicepeak_actors = utility.create_voicepeak_actor_list(config)
 
     print('generating project folder...')
 
@@ -44,11 +48,10 @@ if __name__ == '__main__' or len(sys.argv < 2):
     os.mkdir(output_dir)
 
     for voice_engine_key in config['voice_engine'].keys():
-        output_voice_engine_dir = os.path.join(output_dir, voice_engine_key)
-
-        print(f'generating output [{voice_engine_key}] folder...')
-
-        os.mkdir(output_voice_engine_dir)
+        if voice_engine_key == "VP":
+            utility.create_voicepeak_dir(voice_engine_key, voicepeak_actors)
+        else:
+            utility.create_voice_engine_dir(voice_engine_key)
 
     print('generating renamed output file folder...')
 
