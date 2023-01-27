@@ -8,10 +8,15 @@ from utility import *
 
 # 生成されたオーディオファイルの連番リネーム
 
+def sort_filename(path_globs, key):
+    if key == 'VR':
+        return sorted(path_globs, key=lambda path: int(os.path.splitext(os.path.basename(path))[0].split('-')[1]))
+    return sorted(path_globs)
+
 def glob_audio_files(current_dir: str, key: str, glob_files: dict, config: dict) -> dict:
     current_dir_glob = os.path.join(current_dir, '*')
 
-    path_globs = glob.glob(current_dir_glob)
+    path_globs = sort_filename(glob.glob(current_dir_glob), key)
     for path_name in path_globs:
         if os.path.isdir(path_name):
             glob_files = glob_audio_files(path_name, key, glob_files, config)
