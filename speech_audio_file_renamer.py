@@ -3,9 +3,8 @@
 
 import sys
 import os
-import yaml
 import glob
-import shutil
+from utility import *
 
 # 生成されたオーディオファイルの連番リネーム
 
@@ -37,12 +36,9 @@ if __name__ == '__main__' or len(sys.argv < 2):
         print(f'project directory is not exist! : {project_dir}')
         quit()
 
-    config = None
-    with open('./config.yaml', 'r', encoding='utf-8') as yaml_file:
-        config = yaml.safe_load(yaml_file)
+    config = load_config_file()
 
-    jimaku_file_path = os.path.join(
-        project_dir, config['input_dir'], config['jimaku_file'])
+    jimaku_file_path = os.path.join(project_dir, config['input_dir'], config['jimaku_file'])
 
     # 字幕ファイルをもとに、声優の順番に対応する音声合成エンジンのリストを作成
 
@@ -57,6 +53,9 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
             target_voice_engine = config['voice_actor'][actor_name]
 
+            if target_voice_engine == 'VP':
+                target_voice_engine = f'{target_voice_engine}_{sanitarily_actor_name(actor_name)}'
+
             engine_per_clause.append(target_voice_engine)
 
     # 音声ファイルのリストを、音声合成エンジン別にリストアップ
@@ -65,8 +64,9 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
     output_dir = os.path.join(project_dir, config['output_dir'])
 
+    voice_engine_set = list(set(engine_per_clause))
     audio_files = {}
-    for voice_engine_key in config['voice_engine'].keys():
+    for voice_engine_key in voice_engine_set:
         audio_files[voice_engine_key] = []
         output_voice_engine_dir = os.path.join(output_dir, voice_engine_key)
         audio_files = glob_audio_files(output_voice_engine_dir, voice_engine_key, audio_files, config)
@@ -94,7 +94,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
         rename_filepath = os.path.join(renamed_output_dirname, rename_filename)
         print(f'{org_filepath} -> {rename_filepath}')
 
-        shutil.copyfile(org_filepath, rename_filepath)
+        copy_file(org_filepath, rename_filepath)
 
         rename_file_counter = rename_file_counter + 1
 
