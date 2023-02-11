@@ -27,6 +27,19 @@ if __name__ == '__main__' or len(sys.argv < 2):
     current_actor = list(config['voice_actor'].keys())[0]
     current_serifu = ''
 
+    serifu_sanitize_regexp = {}
+
+    for voice_engine_key in config['serifu_sanitize_regexp'].keys():
+        serifu_sanitize_regexp[voice_engine_key] = []
+        sanitize_dict = config['serifu_sanitize_regexp'][voice_engine_key]
+        for sanitize_key in sanitize_dict.keys():
+            serifu_sanitize_regexp[voice_engine_key].append(
+                {
+                    'regexp': re.compile(sanitize_key),
+                    'sub': sanitize_dict[sanitize_key]
+                    }
+                )
+
     print('read serifu file...')
 
     with open(serifu_file_path, 'r', encoding=config['serifu_file_encoding']) as serifu_file:
@@ -37,6 +50,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
             for serifu_line in serifu_file:
                 serifu_line = serifu_line.rstrip('\n')
+
                 serifu_pair = serifu_line.split(',', maxsplit = 1) # 声優名だけを分離
                 if len(serifu_pair) == 2 and current_actor in config['voice_actor']:
                     current_actor = serifu_pair[0]
@@ -59,13 +73,21 @@ if __name__ == '__main__' or len(sys.argv < 2):
                     serifu_per_engine_file_path = os.path.join(project_dir, config['input_dir'], serifu_per_engine_filename)
                     streams[stream_key] = open(serifu_per_engine_file_path, 'w', encoding=config['output_file_encoding'][voice_engine])
 
+                current_jimaku = current_serifu
+
+                if voice_engine in serifu_sanitize_regexp.keys():
+                    sanitize_list = serifu_sanitize_regexp[voice_engine_key]
+
+                    for sanitize_pair in sanitize_list:
+                        current_serifu = re.sub(sanitize_pair['regexp'], sanitize_pair['sub'], current_serifu)
+
                 # voice_engineが"VP(VOICEPEAK)"の場合は、声優名を省略
                 # (VOICEPEAKの場合は1声優のみのため)
                 if voice_engine == "VP":
                     streams[stream_key].write(f'{current_serifu}\n')
                 else:
                     streams[stream_key].write(f'{current_actor}{separator}{current_serifu}\n')
-                jimaku_file.write(f'{current_actor}:{current_serifu}\n')
+                jimaku_file.write(f'{current_actor}:{current_jimaku}\n')
 
     for stream in streams.values():
         stream.close()
