@@ -10,6 +10,9 @@
   - ".mp3"
   - ".ogg"
 "voice_engine":
+  "AIV":
+    "Name": "AI VOICE"
+    "Separator": "＞"
   "VV":
     "Name": "VOICEVOX"
     "Separator": ","
@@ -28,6 +31,7 @@
 "serifu_file_encoding": "utf-8"
 "output_file_encoding":
   "jimaku": "utf-8"
+  "AIV": "utf-8"
   "VV": "utf-8"
   "VR": "shift_jis"
   "VP": "utf-8"
@@ -117,3 +121,4 @@
   "さとうささら": "CC"
   "小春六花": "CA"
   "ロサ(ROSA)": "CA"
+  "栗田まろん": "AIV"

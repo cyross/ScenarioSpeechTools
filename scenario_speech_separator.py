@@ -63,7 +63,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
                 # voice_engineが"VP(VOICEPEAK)"の場合は、声優名も追加し、セリフファイルから声優名を削除
                 # (VOICEPEAKの場合は1声優のみのため)
                 stream_key = voice_engine
-                if voice_engine == "VP":
+                if voice_engine in ["VP"]:
                     stream_key = f'{voice_engine}_{current_actor}'
 
                 separator = config['voice_engine'][voice_engine]['Separator']
@@ -83,7 +83,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
                 # voice_engineが"VP(VOICEPEAK)"の場合は、声優名を省略
                 # (VOICEPEAKの場合は1声優のみのため)
-                if voice_engine == "VP":
+                if voice_engine in ["VP"]:
                     streams[stream_key].write(f'{current_serifu}\n')
                 else:
                     streams[stream_key].write(f'{current_actor}{separator}{current_serifu}\n')

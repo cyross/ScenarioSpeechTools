@@ -9,7 +9,7 @@ from utility import *
 # 生成されたオーディオファイルの連番リネーム
 
 def sort_filepath(path_globs, key):
-    if key == 'VR':
+    if key in ['VR', 'AIV']:
         return sorted(path_globs, key=lambda path: int(os.path.splitext(os.path.basename(path))[0].split('-').pop()))
     return sorted(path_globs)
 
@@ -58,7 +58,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
             target_voice_engine = config['voice_actor'][actor_name]
 
-            if target_voice_engine == 'VP':
+            if target_voice_engine in ['VP']:
                 target_voice_engine = f'{target_voice_engine}_{sanitarily_actor_name(actor_name)}'
 
             engine_per_clause.append(target_voice_engine)
