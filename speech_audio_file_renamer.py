@@ -11,6 +11,8 @@ from utility import *
 def sort_filepath(path_globs, key):
     if key in ['VR', 'AIV']:
         return sorted(path_globs, key=lambda path: int(os.path.splitext(os.path.basename(path))[0].split('-').pop()))
+    if key in ['VP']:
+        return sorted(path_globs, key=lambda path: int(os.path.splitext(os.path.basename(path))[0].split('-')[0]))
     return sorted(path_globs)
 
 def glob_audio_files(current_dir: str, key: str, glob_files: dict, config: dict) -> dict:
@@ -43,7 +45,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
         print(f'project directory is not exist! : {project_dir}')
         quit()
 
-    jimaku_file_path = os.path.join(project_dir, config['input_dir'], config['jimaku_file'])
+    raw_jimaku_file_path = os.path.join(project_dir, config['input_dir'], config['raw_jimaku_file'])
 
     # 字幕ファイルをもとに、声優の順番に対応する音声合成エンジンのリストを作成
 
@@ -51,17 +53,23 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
     engine_per_clause = []
 
-    with open(jimaku_file_path, 'r', encoding=config['output_file_encoding']['jimaku']) as jimaku_file:
+    with open(raw_jimaku_file_path, 'r', encoding=config['output_file_encoding']['jimaku']) as jimaku_file:
         for jimaku_line in jimaku_file:
             jimaku_line = jimaku_line.rstrip('\n')
             actor_name = jimaku_line.split(':', maxsplit = 1)[0] # 声優名だけを分離
 
-            target_voice_engine = config['voice_actor'][actor_name]
+            target_key = config['voice_actor'][actor_name]
 
-            if target_voice_engine in ['VP']:
-                target_voice_engine = f'{target_voice_engine}_{sanitarily_actor_name(actor_name)}'
+            # NONEのものは音声ファイルが無いので無視
+            if target_key == 'NONE':
+                continue
 
-            engine_per_clause.append(target_voice_engine)
+            real_actor_name = to_real_actor_name(actor_name)
+
+            if target_key in ['VP']:
+                target_key = f'{target_key}_{sanitarily_actor_name(real_actor_name)}'
+
+            engine_per_clause.append(target_key)
 
     # 音声ファイルのリストを、音声合成エンジン別にリストアップ
 

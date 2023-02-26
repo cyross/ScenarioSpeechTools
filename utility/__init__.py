@@ -26,7 +26,8 @@ def sanitarily_actor_name(actor_name):
     return re.sub(r'[:\.\s\(\)\[\]\\\/]+', '_', actor_name)
 
 def create_voicepeak_actor_list(config):
-    return list(filter(lambda actor: config['voice_actor'][actor] == "VP",config['voice_actor'].keys()))
+    # actor[0] != "[" <- 声優名の前に区別用のエンジン名が記載されているものは対象にしない
+    return list(filter(lambda actor : config['voice_actor'][actor] == "VP" and actor[0] != "[", config['voice_actor'].keys()))
 
 def create_voicepeak_dir(engine_name, actor_list, output_dir):
     for actor_name in actor_list:
@@ -43,3 +44,10 @@ def create_serifu_file(filepath):
 
 def copy_file(src_path, dst_path):
     shutil.copyfile(src_path, dst_path)
+
+def to_real_actor_name(actor_name):
+    real_actor_name = actor_name
+    if real_actor_name[0] == '[':
+        pos = real_actor_name.find(']')
+        real_actor_name = real_actor_name[pos+1:]
+    return real_actor_name

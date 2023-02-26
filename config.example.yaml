@@ -3,6 +3,7 @@
 "serifu_file": "serifu.txt"
 "serifu_per_engine_file": "serifu_{0}.txt"
 "jimaku_file": "jimaku.txt"
+"raw_jimaku_file": "jimaku_raw.txt"
 "rename_digits": 7
 "renamed_output_dir": "all"
 "supported_audio_file_ext":
@@ -10,6 +11,9 @@
   - ".mp3"
   - ".ogg"
 "voice_engine":
+  "NONE":
+    "Name": "なし"
+    "Separator": ","
   "AIV":
     "Name": "AI VOICE"
     "Separator": "＞"
@@ -31,6 +35,7 @@
 "serifu_file_encoding": "utf-8"
 "output_file_encoding":
   "jimaku": "utf-8"
+  "NONE": "utf-8"
   "AIV": "utf-8"
   "VV": "utf-8"
   "VR": "shift_jis"
@@ -38,6 +43,8 @@
   "CC": "utf-8"
   "CA": "utf-8"
 "voice_actor":
+  "[なし]": "NONE"
+  "ナレーター": "NONE"
   "四国めたん": "VV"
   "四国めたん(ノーマル)": "VV"
   "四国めたん(あまあま)": "VV"
@@ -45,6 +52,7 @@
   "四国めたん(セクシー)": "VV"
   "四国めたん(ささやき)": "VV"
   "四国めたん(ヒソヒソ)": "VV"
+  "[VV]ずんだもん": "VV"
   "ずんだもん(ノーマル)": "VV"
   "ずんだもん(あまあま)": "VV"
   "ずんだもん(ツンツン)": "VV"
@@ -106,6 +114,7 @@
   "桜乃そら": "VR"
   "京町セイカ(v1)": "VR"
   "ずんだもん": "VP"
+  "[VP]ずんだもん": "VP"
   "フリモメン": "VP"
   "東北ずん子": "VP"
   "女性1": "VP"
@@ -119,6 +128,8 @@
   "男性4": "VP"
   "男の子": "VP"
   "さとうささら": "CC"
+  "[CC]さとうささら": "CC"
   "小春六花": "CA"
   "ロサ(ROSA)": "CA"
+  "[CA]さとうささら": "CA"
   "栗田まろん": "AIV"
