@@ -323,6 +323,40 @@ python speech_audio_file_renamer.py ./MyProject001
 
 各音声合成エンジン・各声優については、それぞれの許諾範囲をご確認ください。
 
+### 各合成音声エンジンのライセンスリンク
+
+#### AquesTalk
+
+<https://www.a-quest.com/products/aquestalk.html>
+
+#### ゆっくり音声（東方Project二次創作ガイドライン)
+
+<https://touhou-project.news/guideline/>
+
+#### A.I.VOICE
+
+<https://aivoice.jp/>
+
+#### VOICEROIDシリーズ
+
+<https://www.ah-soft.com/voiceroid/>
+
+#### VOICEPEAK
+
+<https://www.ah-soft.com/voice/>
+
+#### CeVIO CS
+
+<https://cevio.jp/product/ccs/>
+
+#### CeVIO AI
+
+<https://cevio.jp/products_cevio_ai/>
+
+#### VOICEVOX
+
+<https://voicevox.hiroshiba.jp/>
+
 ## おまけ・VOICEROID2,CeVIOでのアドバイス
 
 - VOICEROID2,CeVIOでは、音声ファイルを書き出す際に、セリフの両端に無音部分を作ることができる。
