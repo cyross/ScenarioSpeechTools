@@ -58,7 +58,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
             jimaku_line = jimaku_line.rstrip('\n')
             actor_name = jimaku_line.split(':', maxsplit = 1)[0] # 声優名だけを分離
 
-            target_key = config['voice_actor'][actor_name]
+            target_key = config['voice_actor'][actor_name] if actor_name in config['voice_actor'] else 'OTHER'
 
             # NONEのものは音声ファイルが無いので無視
             if target_key == 'NONE':

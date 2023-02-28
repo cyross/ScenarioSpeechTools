@@ -189,37 +189,39 @@ python scenario_speech_separator.py (プロジェクト名)
 
 コマンドライン引数の"./"は、serifu.txtが設置されているディレクトリ名を指す。
 
-##### 2-2.ScenarioSpeechSeparatorで生成されるファイル
+##### 2-1.ScenarioSpeechSeparatorで生成されるファイル
 
 ```bash
-python scenario_speech_separator.py ./MyProject001
+python scenario_speech_separator.py MyProject001
 ```
 
-上記のコマンドで実行した際、以下のように生成される。
+上記のコマンドで実行した際、以下のファイルが追加される。
 
 ```txt
 ./projects/MyProject001
   + output
-    + VP
-    + VR
-    + VV
-    + CA
-    + CC
-    + all
+    (変更なし)
   + input
-    + serifu.txt
-    + serifu_VP_(声優名).txt # 追加したファイル。声優名毎にファイルが作られる
-    + serifu_VR.txt # 追加したファイル
-    + serifu_VV.txt # 追加したファイル
-    + serifu_CA.txt # 追加したファイル
-    + serifu_CC.txt # 追加したファイル
-    + jimaku.txt # 追加したファイル
+    + serifu_(Voice Engine).txt
+    + jimaku.txt
+    + jimaku_raw.txt
 ```
 
-- serifu_(エンジンの略称).txt : 各音声合成エンジン毎に振り分けたセリフファイル
+各ファイルの説明は以下。
+
+- serifu_(Voice Engine).txt : 各音声合成エンジン毎に振り分けたセリフファイル
   - serifu.txt中に対応する声優がある場合のみ作られる
   - VOICEPEAKでのセリフの流し込みは1声優のみのため、声優別にファイルが作られる
-- jimaku.txt : 字幕流し込み用ファイル
+    - "VP_(声優名)"
+- jimaku.txt : 字幕流し込み用ファイル(流し込めるように編集済み)
+- jimaku_raw.txt : serifu_(Voice Engine).txtの内容をそのまま一つにしたファイル
+
+##### 2-2.ScenarioSpeechSeparatorを使う際の注意事項
+
+- Voice EngineがOTHERの音声ファイルは、すべてoutput/OTHERフォルダに保存する
+- output/OTHERフォルダに保存する際、ファイル名は SpeechAudioFileRenamer で想定通りにソートできるように名付ける必要がある
+  - ファイル名の先頭をゼロ埋めの連番にしておくと、想定通りの順番でRenameがなされる
+  - 例：00001-～.wav
 
 ## SpeechAudioFileRenamer
 
@@ -246,7 +248,7 @@ python speech_audio_file_renamer.py (プロジェクト名)
 - 実行例
 
 ```bash
-python speech_audio_file_renamer.py ./MyProject001
+python speech_audio_file_renamer.py MyProject001
 ```
 
 - フォルダ・ファイル群

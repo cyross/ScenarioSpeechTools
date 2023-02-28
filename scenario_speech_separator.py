@@ -56,7 +56,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
                     serifu_line = serifu_line.rstrip('\n')
 
                     serifu_pair = serifu_line.split(',', maxsplit = 1) # 声優名だけを分離
-                    if len(serifu_pair) == 2 and current_actor in config['voice_actor']:
+                    if len(serifu_pair) == 2:
                         current_actor = serifu_pair[0]
                         current_serifu = serifu_pair[1]
                     else: # 声優名を省略している場合は、先に指定した声優名を引き継いで使用
@@ -64,7 +64,7 @@ if __name__ == '__main__' or len(sys.argv < 2):
 
                     real_actor_name = to_real_actor_name(current_actor)
 
-                    voice_engine = config['voice_actor'][current_actor]
+                    voice_engine = config['voice_actor'][current_actor] if current_actor in config['voice_actor'] else "OTHER"
 
                     # voice_engineが"VP(VOICEPEAK)"の場合は、声優名も追加し、セリフファイルから声優名を削除
                     # (VOICEPEAKの場合は1声優のみのため)
