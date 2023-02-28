@@ -28,11 +28,36 @@ Python3が動く環境なら全て動く。
 - Python 3.11
 - PyYAML
 
+- A.I.VOICE
 - VOICEROID2
 - VOICEPEAK
 - CeVIO AI
 - CeVIO CS7
 - VOICEVOX
+
+## サポートしている音声合成エンジン
+
+本システムでサポートしている音声合成エンジンは以下
+
+(注意)但しAquesTalkは動作未確認
+
+- A.I.VOICE(AIV)
+- AquesTalk(AQ)
+- CeVIO AI(CA)
+- CeVIO CS(CC)
+- VOICEPEAK(VP)
+- VOICEROID2(VR)
+- VOICEVOX(VV)
+
+## 音声合成エンジンを使用していないもの
+
+また、音声合成エンジンを使用していない場合も、以下のパターンでサポートしている
+
+- その他(OTHER)
+  - サポートしていない音声合成エンジンを使用した場合に使う
+  - 生声や生音声のファイルを使用する場合に使う
+- 音声なし(NONE)
+  - 単に字幕として表示させたいときなど、音声を伴わないものとして使う
 
 ## ファイル構成
 
@@ -117,14 +142,6 @@ python create_scenario_speech_project.py (プロジェクト名)
 
 - 実行例
 
-前提として、以下の音声合成システムを用意しているとする。
-
-- VOICEPEAK(VP)
-- VOICEROID2(VR)
-- VOICEVOX(VV)
-- CeVIO AI(CA)
-- CeVIO CS(CC)
-
 ```bash
 python create_scenario_speech_project.py MyProject001
 ```
@@ -134,18 +151,22 @@ python create_scenario_speech_project.py MyProject001
 ```txt
 ./projects/MyProject001
   + output
-    + VP
-    + VR
-    + VV
+    + AIV
+    + all
+    + AQ
     + CA
     + CC
-    + all
+    + NONE
+    + OTHER
+    + VP_(声優名)
+    + VR
+    + VV
   + input
     + serifu.txt
 ```
 
 - output : 音声合成エンジンによって生成された音声ファイルの保存場所
-- output/(VP|VR|VV|CA|CC) : 各音声合成エンジン毎にディレクトリを分けて保存
+- output/(AIV|AQ|CA|CC|NONE|OTHER|VP_(声優名)|VR|VV) : 各音声合成エンジン毎にディレクトリを分けて保存
 - output/all : 最終的にVEGASのオーディオトラックに流し込む音声ファイルを保存する場所
   - speech_audio_file_renamer.pyで使う
 - input : 入力ファイル用フォルダ
@@ -166,17 +187,43 @@ VEGASでのボイロ系動画を作成するために、複数エンジンで準
 
 `serifu.txt`を用意しておく（ファイル名はconfig.yamlで変更可能)
 
-セリフの内容は以下。
-行単位で書き込む。
+##### 1-1.セリフファイルの書式
 
-`声優名,セリフ本体`
+セリフの基本的な書式は以下。
 
-##### 1-1.セリフファイルの例
+```csv
+声優名,セリフ本体
+```
 
-```txt
+1行中に行単位で書き込む。
+複数行の内容を1行に書いてしまうと、SpeechAudioFileRenamer でエラーを出すため注意！
+
+声優名を `[なし]` もしくは `ナレーター` と指定すると、VOICE ENGINE を `NONE` として処理する。
+その際、セリフの先頭にそのセリフを表示させる時間を指定できる。
+
+```csv
+声優名,[(数値)]セリフ本体
+```
+
+カッコ内の数値は**ミリ秒単位**で指定できる。1 秒のときは `1000` と記述する。
+
+省略した際は、各自(VegasHelper)の標準設定に従う。
+
+##### 1-2.セリフファイル記述時の注意
+
+`config.yaml` で指定していない声優名を書き込むと、エラーを出さずに VOICE ENGINE を "OTHER" として処理するため、**書き間違えに注意！**
+
+##### 1-3.セリフファイルの例
+
+```csv
 ずんだもん,ごきげんよう。おいらがずんだもんなのだ！
 四国めたん(あまあま),ご機嫌麗しゅう。わらわは四国めたん。お見知りおきを。
 琴葉茜,どないしたんや、こんなに甘い声出して！
+[VV]ずんだもん,VOICEVOXで喋らせるときはここなのだ！
+[VP]ずんだもん,VOICEPEAKでも明示できるのだ！
+[なし],ナレーションできますか？
+ナレーター,[1000]ナレーションできます
+どこかの誰か,発声練習します
 ```
 
 #### 2.scenario_speech_separator.pyの実行
