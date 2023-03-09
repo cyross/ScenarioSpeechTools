@@ -9,13 +9,13 @@ VEGASでボイロ系動画を作成するための便利ツール集。
 
 本システムは、以下の3つのツールで構成されている。
 
-- CreateScenarioSpeechProject
+- BuildProject
   - セリフや字幕、出力音声ファイルを「プロジェクト」として管理している
   - そのためのフォルダやファイルを作成して、初期状態を構築する
-- ScenarioSpeechSeparator
+- SeparateScenario
   - 一つのセリフファイルから、音声合成エンジン・声優別にファイルを振り分ける
   - 同時に、字幕用のファイルも生成する
-- SpeechAudioFileRenamer
+- CopyAndRename
   - 動画編集ソフトの貼り付けのため、音声ファイルを一つのフォルダにまとめる
   - セリフの順番に音声ファイル名を連番に付け替える
 
@@ -64,11 +64,13 @@ Python3が動く環境なら全て動く。
 本システムの初期構成は以下の通り。
 
 ```text
-. - config.example.yaml               # コンフィグファイルの雛形。config.yamlとして保存する
-  - create_scenario_speech_project.py # CreateScenarioSpeechProject
-  - scenario_speech_separator.py      # ScenarioSpeechSeparator
-  - speech_audio_file_renamer.py      # SpeechAudioFileRenamer
-  - utility.py                        # ユーティリティ関数群
+. - config.yaml          # コンフィグファイル
+  - actor.yaml           # actor情報
+  - engine.yaml          # engine情報
+  - build_project.py     # BuildProject
+  - separate_scenario.py # SeparateScenario
+  - copy_and_rename.py   # CopyAndRename
+  - scenario             # pythonのモジュール
   - LICENSE                           # ライセンスファイル(MITライセンス)
   - README.md                         # 本ファイル
   - .gitignore                        # git管理用
@@ -122,18 +124,18 @@ CeVIO側で設定を変えたくない場合は、`config.yaml`の`output_file_e
 VOICEPEAKでは、テキストファイルをインポートする際に声優が固定される。
 そのため、VOICEPEAK本体で声優を振り分ける必要がある。
 
-## CreateScenarioSpeechProject
+## BuildProject
 
 VEGASで使うボイロ系音声を管理するためのプロジェクトフォルダを生成
 
-### CreateScenarioSpeechProjectの使い方
+### BuildProjectの使い方
 
 以下の順番で作成する。
 
-#### 1.create_scenario_speech_project.pyの実行
+#### 1.build_project.pyの実行
 
 ```bash
-python create_scenario_speech_project.py (プロジェクト名)
+python build_project.py (プロジェクト名)
 ```
 
 ##### 1-2.作成されるファイル群
@@ -143,7 +145,7 @@ python create_scenario_speech_project.py (プロジェクト名)
 - 実行例
 
 ```bash
-python create_scenario_speech_project.py MyProject001
+python build_project.py MyProject001
 ```
 
 - フォルダ・ファイル群
@@ -168,18 +170,18 @@ python create_scenario_speech_project.py MyProject001
 - output : 音声合成エンジンによって生成された音声ファイルの保存場所
 - output/(AIV|AQ|CA|CC|NONE|OTHER|VP_(声優名)|VR|VV) : 各音声合成エンジン毎にディレクトリを分けて保存
 - output/all : 最終的にVEGASのオーディオトラックに流し込む音声ファイルを保存する場所
-  - speech_audio_file_renamer.pyで使う
+  - copy_and_rename.pyで使う
 - input : 入力ファイル用フォルダ
   - 音声合成エンジンや字幕として流し込むファイルが保存される
 - serifu.txt : セリフファイル。ここにセリフを書き込む
 
-## ScenarioSpeechSeparator
+## SeparateScenario
 
 VEGASでのボイロ系動画を作成するために、複数エンジンで準備するセリフファイルを
 各エンジン毎に所定の書式で振り分けて別々のファイルに保存する。
 また、VEGASの字幕ファイルも同時に作成する。
 
-### ScenarioSpeechSeparator使い方
+### SeparateScenario使い方
 
 以下の順番で処理する。
 
@@ -196,7 +198,7 @@ VEGASでのボイロ系動画を作成するために、複数エンジンで準
 ```
 
 1行中に行単位で書き込む。
-複数行の内容を1行に書いてしまうと、SpeechAudioFileRenamer でエラーを出すため注意！
+複数行の内容を1行に書いてしまうと、CopyAndRename でエラーを出すため注意！
 
 声優名を `[なし]` もしくは `ナレーター` と指定すると、VOICE ENGINE を `NONE` として処理する。
 その際、セリフの先頭にそのセリフを表示させる時間を指定できる。
@@ -226,20 +228,20 @@ VEGASでのボイロ系動画を作成するために、複数エンジンで準
 どこかの誰か,発声練習します
 ```
 
-#### 2.scenario_speech_separator.pyの実行
+#### 2.separate_scenario.pyの実行
 
 あとは、コマンドラインでスクリプトを実行すればOK！
 
 ```bash
-python scenario_speech_separator.py (プロジェクト名)
+python separate_scenario.py (プロジェクト名)
 ```
 
 コマンドライン引数の"./"は、serifu.txtが設置されているディレクトリ名を指す。
 
-##### 2-1.ScenarioSpeechSeparatorで生成されるファイル
+##### 2-1.SeparateScenarioで生成されるファイル
 
 ```bash
-python scenario_speech_separator.py MyProject001
+python separate_scenario.py MyProject001
 ```
 
 上記のコマンドで実行した際、以下のファイルが追加される。
@@ -263,14 +265,14 @@ python scenario_speech_separator.py MyProject001
 - jimaku.txt : 字幕流し込み用ファイル(流し込めるように編集済み)
 - jimaku_raw.txt : serifu_(Voice Engine).txtの内容をそのまま一つにしたファイル
 
-##### 2-2.ScenarioSpeechSeparatorを使う際の注意事項
+##### 2-2.SeparateScenarioを使う際の注意事項
 
 - Voice EngineがOTHERの音声ファイルは、すべてoutput/OTHERフォルダに保存する
-- output/OTHERフォルダに保存する際、ファイル名は SpeechAudioFileRenamer で想定通りにソートできるように名付ける必要がある
+- output/OTHERフォルダに保存する際、ファイル名は CopyAndRename で想定通りにソートできるように名付ける必要がある
   - ファイル名の先頭をゼロ埋めの連番にしておくと、想定通りの順番でRenameがなされる
   - 例：00001-～.wav
 
-## SpeechAudioFileRenamer
+## CopyAndRename
 
 出力した音声ファイルをセリフの順番に連番を付けるためのスクリプト。
 
@@ -278,24 +280,24 @@ python scenario_speech_separator.py MyProject001
 
 対応する音声エンジンごとに出力された音声ファイルをallフォルダにコピーして、所定の番号に振り分ける。
 
-### SpeechAudioFileRenamerの使い方
+### CopyAndRenameの使い方
 
 以下の順番で作成する。
 
-#### 1.speech_audio_file_renamer.pyの実行
+#### 1.copy_and_rename.pyの実行
 
 ```bash
-python speech_audio_file_renamer.py (プロジェクト名)
+python copy_and_rename.py (プロジェクト名)
 ```
 
-##### 1-2.SpeechAudioFileRenamerで作成されるファイル群
+##### 1-2.CopyAndRenameで作成されるファイル群
 
 スクリプトを実行すると、以下の構成でフォルダやファイルが作られる。
 
 - 実行例
 
 ```bash
-python speech_audio_file_renamer.py MyProject001
+python copy_and_rename.py MyProject001
 ```
 
 - フォルダ・ファイル群
@@ -336,7 +338,7 @@ python speech_audio_file_renamer.py MyProject001
 - output : 音声合成エンジンによって生成された音声ファイルの保存場所
 - output/(VP_(声優名)|VR|VV|CA|CC) : 各音声合成エンジン毎にディレクトリを分けて保存
 - output/all : 最終的にVEGASのオーディオトラックに流し込む音声ファイルを保存する場所
-  - speech_audio_file_renamer.pyで使う
+  - copy_and_rename.pyで使う
   - ファイル名は以下の書式で保存される
     - (セリフの連番).(音声ファイル拡張子)
   - 連番の桁数は`config.yaml`で変更可能
@@ -345,7 +347,7 @@ python speech_audio_file_renamer.py MyProject001
   - 音声合成エンジンや字幕として流し込むファイルが保存される
 - serifu.txt : セリフファイル。ここにセリフを書き込む
 
-##### 1-3.SpeechAudioFileRenamerを使う際の注意事項
+##### 1-3.CopyAndRenameを使う際の注意事項
 
 - jimaku.txtの行数と、保存しているオーディオファイルの数が同じである必要がある
 - CeVIO CS/AIで使用するトラック数は一つのみに限定

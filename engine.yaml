@@ -1,0 +1,35 @@
+"spec":
+  "AIV":
+    "name": "AI VOICE"
+    "separator": "＞"
+  "AQ":
+    "name": "AquesTalk"
+    "separator": ","
+  "CA":
+    "name": "CeVIO AI"
+    "separator": ","
+  "CC":
+    "name": "CeVIO CS"
+    "separator": ","
+  "VP":
+    "name": "VOICEPEAK"
+    "separator": ","
+  "VR":
+    "name": "VOICEROID2"
+    "separator": "＞"
+  "VV":
+    "name": "VOICEVOX"
+    "separator": ","
+  "OTHER":
+    "name": "その他"
+    "separator": ","
+  "NONE":
+    "name": "なし"
+    "separator": ","
+"none_voice":
+  - "NONE"
+"separate":
+  - "VP"
+"sanitize_regexp":
+  "VR":
+    "～": "ー"

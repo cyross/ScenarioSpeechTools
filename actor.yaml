@@ -1,56 +1,4 @@
-"version": 1.0
-"project_base_dir": './projects/'
-"serifu_file": "serifu.txt"
-"serifu_per_engine_file": "serifu_{0}.txt"
-"jimaku_file": "jimaku.txt"
-"raw_jimaku_file": "jimaku_raw.txt"
-"rename_digits": 7
-"renamed_output_dir": "all"
-"supported_audio_file_ext":
-  - ".wav"
-  - ".mp3"
-  - ".ogg"
-"voice_engine":
-  "AIV":
-    "Name": "AI VOICE"
-    "Separator": "＞"
-  "AQ":
-    "Name": "AquesTalk"
-    "Separator": ","
-  "CA":
-    "Name": "CeVIO AI"
-    "Separator": ","
-  "CC":
-    "Name": "CeVIO CS"
-    "Separator": ","
-  "VP":
-    "Name": "VOICEPEAK"
-    "Separator": ","
-  "VR":
-    "Name": "VOICEROID2"
-    "Separator": "＞"
-  "VV":
-    "Name": "VOICEVOX"
-    "Separator": ","
-  "OTHER":
-    "Name": "その他"
-    "Separator": ","
-  "NONE":
-    "Name": "なし"
-    "Separator": ","
-"serifu_file_encoding": "utf-8"
-"output_file_encoding":
-  "jimaku": "utf-8"
-  "AIV": "utf-8"
-  "AQ": "utf-8"
-  "CA": "utf-8"
-  "CC": "utf-8"
-  "VP": "utf-8"
-  "VR": "shift_jis"
-  "VV": "utf-8"
-  "NONE": "utf-8"
-  "OTHER": "utf-8"
-"voice_actor":
+"spec":
   "栗田まろん": "AIV"
   "足立レイ": "AIV"
   "[AIV]琴葉 葵": "AIV"
@@ -218,3 +166,4 @@
   "ナレーター": "NONE"
   "その他": "OTHER"
   "生声": "OTHER"
+"sanitize_regexp": "[:\\.\\s\\(\\)\\[\\]\\\\\\/]+"

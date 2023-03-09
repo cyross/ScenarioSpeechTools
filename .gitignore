@@ -128,8 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# config file
-config.yaml
-
 # project directory
 /projects
+
+Pipfile
+Pipfile.lock
