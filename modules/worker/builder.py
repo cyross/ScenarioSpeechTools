@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from scenario import Base
-from scenario.io import *
+from modules import Base
+from modules.io import *
 
 class Builder(Base):
     def __init__(self, project):

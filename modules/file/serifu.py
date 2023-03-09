@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import re
-from scenario.file import File
+from modules.file import File
 
 # SERIFU FILE
 class Serifu(File):

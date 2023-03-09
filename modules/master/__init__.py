@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from scenario import Base, Singleton
-from scenario.file import load_yaml
+from modules import Base, Singleton
+from modules.file import load_yaml
 
 # DATA BASE
 class Data(Base, Singleton):

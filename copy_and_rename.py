@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from scenario import check_command_line_args
-from scenario.project import Project
-from scenario.worker.renamer import Renamer
+from modules import check_command_line_args
+from modules.project import Project
+from modules.worker.renamer import Renamer
 
 # 生成されたオーディオファイルの連番リネーム
 if __name__ == '__main__' or len(sys.argv < 2):

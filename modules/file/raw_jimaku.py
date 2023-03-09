@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from scenario.file.jimaku import Jimaku
+from modules.file.jimaku import Jimaku
 
 # RAW JIMAKU FILE
 class RawJimaku(Jimaku):

@@ -2,7 +2,7 @@
 
 import io
 import yaml
-from scenario import Base
+from modules import Base
 
 def load_yaml(file_path, encoding = 'utf-8'):
     data: any = None

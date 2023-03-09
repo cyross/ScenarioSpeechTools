@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import re
-from scenario.master import Data
-from scenario.master.engine import Engine
+from modules.master import Data
+from modules.master.engine import Engine
 
 # VOICE ACTOR
 class Actor(Data):

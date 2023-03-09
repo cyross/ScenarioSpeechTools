@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from scenario.io import *
-from scenario import check_command_line_args
-from scenario.project import Project
-from scenario.worker.builder import Builder
+from modules import check_command_line_args
+from modules.io import *
+from modules.project import Project
+from modules.worker.builder import Builder
 
 # シナリオプロジェクトフォルダ作成
 if __name__ == '__main__':

@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from scenario import check_command_line_args
-from scenario.project import Project
-from scenario.worker.separator import Separator
+from modules import check_command_line_args
+from modules.project import Project
+from modules.worker.separator import Separator
 
 # シナリオファイルセパレーター
 

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from scenario import Base
-from scenario.io import *
-from scenario.file.raw_jimaku import RawJimaku
+from modules import Base
+from modules.io import *
+from modules.file.raw_jimaku import RawJimaku
 
 class Renamer(Base):
     RN_DIGITS = 'rename_digits'

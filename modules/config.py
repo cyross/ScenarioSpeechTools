@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from scenario import Singleton
-from scenario.file import load_yaml
+from modules import Singleton
+from modules.file import load_yaml
 
 class Config(Singleton):
     VERSION = 'version'

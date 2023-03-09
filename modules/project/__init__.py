@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from scenario.io import *
-from scenario.config import Config
-from scenario.master.actor import Actor
-from scenario.master.engine import Engine
+from modules.io import *
+from modules.config import Config
+from modules.master.actor import Actor
+from modules.master.engine import Engine
 
 class Project:
     def __init__(self, name):

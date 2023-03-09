@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from scenario import Base
-from scenario.file.serifu import Serifu
-from scenario.file.sep_serifu import SepSerifu
-from scenario.file.jimaku import Jimaku
-from scenario.file.raw_jimaku import RawJimaku
+from modules import Base
+from modules.file.serifu import Serifu
+from modules.file.sep_serifu import SepSerifu
+from modules.file.jimaku import Jimaku
+from modules.file.raw_jimaku import RawJimaku
 
 class Separator(Base):
     def __init__(self, project):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from scenario.master import Data
+from modules.master import Data
 
 # VOICE ENGINE
 class Engine(Data):

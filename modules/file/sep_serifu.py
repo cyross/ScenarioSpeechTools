@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from scenario.file.serifu import Serifu
+from modules.file.serifu import Serifu
 
 # SEPARATED SERIFU FILE
 class SepSerifu(Serifu):
