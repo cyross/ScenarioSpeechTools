@@ -20,3 +20,10 @@ class Project:
 
     def exists(self):
         return file_exists(self.io.project_dir)
+
+    def projects_exists(self):
+        return file_exists(self.io.base_dir)
+
+    def create_projects_dir(self):
+        if not self.projects_exists():
+            make_dir(self.io.base_dir)
