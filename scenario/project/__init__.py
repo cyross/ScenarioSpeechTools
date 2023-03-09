@@ -9,7 +9,7 @@ from scenario.data.engine import Engine
 
 class Project:
     def __init__(self, name):
-        self.config = Config()
+        self.config = Config.instance()
         self.name = name
         self.io = IO(self.name, self.config)
         self.actor = Actor(self)

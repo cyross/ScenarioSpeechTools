@@ -13,3 +13,11 @@ class Base:
         self.project = project
         self.config = project.config
         self.io = self.project.io
+
+class Singleton:
+    @classmethod
+    def instance(cls):
+        if not hasattr(cls, '_instance'):
+            cls._instance = cls()
+
+        return cls._instance
