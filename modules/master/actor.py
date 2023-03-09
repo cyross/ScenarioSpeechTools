@@ -8,6 +8,8 @@ from modules.master.engine import Engine
 class Actor(Data):
     YAML_PATH = './actor.yaml'
     YAML_ENCODING = 'utf-8'
+    COMMON_PATTERNS = 'common'
+    SPEC_ENGINE = 'engine'
 
     NONE_NAME = '[なし]'
     OPEN_ATTR = '['
@@ -17,7 +19,9 @@ class Actor(Data):
         super().__init__(project, self.YAML_PATH, self.YAML_ENCODING)
 
     def sanitize(self, name):
-        return re.sub(self.sanitize_re, '_', name)
+        for s_pair in self.sanitizer[self.COMMON_PATTERNS]:
+            name = re.sub(s_pair[Data.PATTERN], s_pair[Data.SUB], name)
+        return name
 
     def first_name(self, index: int = 0) -> str:
         return list(self.names)[index]
@@ -26,7 +30,7 @@ class Actor(Data):
         return name in self.names
 
     def engine(self, name: str) -> str:
-        return self.get(name) if self.has(name) else Engine.OTHER
+        return self.spec[name][self.SPEC_ENGINE] if self.has(name) else Engine.OTHER
 
     def has_attr(self, name: str) -> bool:
         return name[0] == self.OPEN_ATTR

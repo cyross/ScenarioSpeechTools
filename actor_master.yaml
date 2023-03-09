@@ -1,0 +1,3083 @@
+- "name": "青山龍星"
+  "kana": "あおやまりゅうせい"
+  "engines":
+  - "AIV"
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "彩澄しゅお"
+  "kana": "あすみしゅお"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "彩澄りりせ"
+  "kana": "あすみりりせ"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "足立レイ"
+  "kana": "あだちれい"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "雨晴はう"
+  "kana": "あめはれはう"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "IA"
+  "kana": "いあ"
+  "engines":
+  - "CA"
+  - "CC"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "伊織弓鶴"
+  "kana": "いおりゆづる"
+  "engines":
+  - "AIV"
+  - "VR"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "羽ノ華"
+  "kana": "うのか"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "櫻歌ミコ"
+  "kana": "おうかみこ"
+  "engines":
+  - "VV"
+  "another_names":
+  - "櫻歌ミコ(ノーマル)"
+  - "櫻歌ミコ(第二形態)"
+  - "櫻歌ミコ(ロリ)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "男の子"
+  "kana": "おとこのこ"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ONE"
+  "kana": "おね"
+  "engines":
+  - "CA"
+  - "CC"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "女の子"
+  "kana": "おんなのこ"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "風見壮一"
+  "kana": "かざみそういち"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "春日部つむぎ"
+  "kana": "かすかべつむぎ"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "麒ヶ島宗麟"
+  "kana": "きがしまそうりん"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "紲星あかり"
+  "kana": "きずなあかり"
+  "engines":
+  - "AIV"
+  - "VR"
+  "another_names":
+  - "紲星あかり(蕾)[AIV]"
+  - "紲星あかり(萌)[AIV]"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "九州そら"
+  "kana": "きゅうしゅうそら"
+  "engines":
+  - "VV"
+  "another_names":
+  - "九州そら(ノーマル)"
+  - "九州そら(あまあま)"
+  - "九州そら(ツンツン)"
+  - "九州そら(セクシー)"
+  - "九州そら(ささやき)"
+  - "九州そら(ヒソヒソ)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "京町セイカ"
+  "kana": "きょうまちせいか"
+  "engines":
+  - "VR"
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "GUMI"
+  "kana": "ぐみ"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "栗田まろん"
+  "kana": "くりたまろん"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "玄野武宏"
+  "kana": "くろのたけひろ"
+  "engines":
+  - "VV"
+  "another_names":
+  - "玄野武宏(ノーマル)"
+  - "玄野武宏(喜び)"
+  - "玄野武宏(ツンギレ)"
+  - "玄野武宏(悲しみ)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "剣崎雌雄"
+  "kana": "けんざきめすお"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "後鬼"
+  "kana": "ごき"
+  "engines":
+  - "VV"
+  "another_names":
+  - "後鬼(人間ver.)"
+  - "後鬼(ぬいぐるみver.)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "琴葉 葵"
+  "kana": "ことはあおい"
+  "engines":
+  - "VR"
+  - "AIV"
+  "another_names":
+  - "琴葉 葵(v1)[VR]"
+  - "琴葉 葵(蕾)[AIV]"
+  - "Aoi[AIV]"
+  - "葵[AIV]"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "琴葉 茜"
+  "kana": "ことはあかね"
+  "engines":
+  - "VR"
+  - "AIV"
+  "another_names":
+  - "琴葉 茜(v1)[VR]"
+  - "琴葉 茜(蕾)[AIV]"
+  - "Akane[AIV]"
+  - "茜[AIV]"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "小春六花"
+  "kana": "こはるりっか"
+  "engines":
+  - "CA"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "咲ちゃん"
+  "kana": "さきちゃん"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "さとうささら"
+  "kana": "さとうささら"
+  "engines":
+  - "CA"
+  - "CC"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "小夜(SAYO)"
+  "kana": "さよ"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "潮崎かずき"
+  "kana": "しおざきかずき"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "式大元"
+  "kana": "しきたいげん"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "式狼縁"
+  "kana": "しきろうえん"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "四国めたん"
+  "kana": "しこくめたん"
+  "engines":
+  - "VV"
+  "another_names":
+  - "四国めたん(ノーマル)"
+  - "四国めたん(あまあま)"
+  - "四国めたん(ツンツン)"
+  - "四国めたん(セクシー)"
+  - "四国めたん(ささやき)"
+  - "四国めたん(ヒソヒソ)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "邪神ちゃん"
+  "kana": "じゃしんちゃん"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "女性1"
+  "kana": "じょせい1"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "女性2"
+  "kana": "じょせい2"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "女性3"
+  "kana": "じょせい3"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "女性4"
+  "kana": "じょせい4"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "白上虎太郎"
+  "kana": "しらかみこたろう"
+  "engines":
+  - "VV"
+  "another_names":
+  - "白上虎太郎(ふつう)"
+  - "白上虎太郎(わーい)"
+  - "白上虎太郎(びくびく)"
+  - "白上虎太郎(おこ)"
+  - "白上虎太郎(ぴえーん)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "すずきつづみ"
+  "kana": "すずきつづみ"
+  "engines":
+  - "CA"
+  - "CC"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ずんだもん"
+  "kana": "ずんだもん"
+  "engines":
+  - "VP"
+  - "VV"
+  - "ずんだもん(ノーマル)[VV]"
+  - "ずんだもん(あまあま)[VV]"
+  - "ずんだもん(ツンツン)[VV]"
+  - "ずんだもん(セクシー)[VV]"
+  - "ずんだもん(ささやき)[VV]"
+  - "ずんだもん(ヒソヒソ)[VV]"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "鷹の爪吉田くん"
+  "kana": "たかのつめよしだくん"
+  "engines":
+  - "VR"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "タカハシ"
+  "kana": "たかはし"
+  "engines":
+  - "CC"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "民安ともえ"
+  "kana": "たみやすともえ"
+  "engines":
+  - "VR"
+  "another_names":
+  - "民安ともえ(v1)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "タンゲコトエ"
+  "kana": "たんげことえ"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "男性1"
+  "kana": "だんせい1"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "男性2"
+  "kana": "だんせい2"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "男性3"
+  "kana": "だんせい3"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "男性4"
+  "kana": "だんせい4"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ちび式じい"
+  "kana": "ちびしきじい"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ついなちゃん"
+  "kana": "ついなちゃん"
+  "engines":
+  - "VR"
+  "another_names":
+  - "ついなちゃん(標準語)"
+  - "ついなちゃん(関西弁)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "月読アイ"
+  "kana": "つくよみあい"
+  "engines":
+  - "VR"
+  "another_names":
+  - "月読アイ(v1)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "月読ショウタ"
+  "kana": "つくよみしょうた"
+  "engines":
+  - "VR"
+  "another_names":
+  - "月読ショウタ(v1)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "弦巻マキ"
+  "kana": "つるまきまき"
+  "engines":
+  - "CA"
+  "another_names":
+  - "弦巻マキ English"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "東北イタコ"
+  "kana": "とうほくいたこ"
+  "engines":
+  - "VR"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "東北きりたん"
+  "kana": "とうほくきりたん"
+  "engines":
+  - "VR"
+  "another_names":
+  - "東北きりたん(v1)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "東北ずん子"
+  "kana": "とうほくずんこ"
+  "engines":
+  - "VP"
+  - "VR"
+  "another_names":
+  - "東北ずん子(v1)[VR]"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ナースロボ＿タイプＴ"
+  "kana": "なーすろぼたいぷてぃー"
+  "engines":
+  - "VV"
+  "another_names":
+  - "ナースロボ＿タイプＴ(ノーマル)"
+  - "ナースロボ＿タイプＴ(楽々)"
+  - "ナースロボ＿タイプＴ(恐怖)"
+  - "ナースロボ＿タイプＴ(内緒話)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "夏色花梨"
+  "kana": "なつきかりん"
+  "engines":
+  - "CA"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "波音リツ"
+  "kana": "なみねりつ"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "No.7"
+  "kana": "なんばーせぶん"
+  "engines":
+  - "VV"
+  "another_names":
+  - "No.7(ノーマル)"
+  - "No.7(アナウンス)"
+  - "No.7(読み聞かせ)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "花隈千冬"
+  "kana": "はなくまちふゆ"
+  "engines":
+  - "CA"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "桜乃そら"
+  "kana": "はるのそら"
+  "engines":
+  - "VR"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "日ノ出賢"
+  "kana": "ひのでけん"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "フリモメン"
+  "kana": "ふりもめん"
+  "engines":
+  - "VP"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "†聖騎士 紅桜†"
+  "kana": "ほーりーないとべにざくら"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "WhiteCUL"
+  "kana": "ほわいとかる"
+  "engines":
+  - "VV"
+  "another_names":
+  - "WhiteCUL(ノーマル)"
+  - "WhiteCUL(たのしい)"
+  - "WhiteCUL(かなしい)"
+  - "WhiteCUL(ぴえーん)"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "水無瀬コウ"
+  "kana": "みなせこう"
+  "engines":
+  - "VR;水無瀬コウ(v1)"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "冥鳴ひまり"
+  "kana": "めいめいひまり"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "もち子さん"
+  "kana": "もちこさん"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "結城 香"
+  "kana": "ゆうきかおり"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "結月ゆかり"
+  "kana": "ゆづきゆかり"
+  "engines":
+  - "AIV"
+  - "VR"
+  "another_names":
+  - "結月ゆかり(雫)[AIV]"
+  - "結月ゆかり(v1)[VR]"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "来果"
+  "kana": "らいか"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ria"
+  "kana": "りあ"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ロサ(ROSA)"
+  "kana": "ろさ"
+  "engines":
+  - "CA"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "雀松朱司"
+  "kana": "わかまつあかし"
+  "engines":
+  - "VV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "若穂みのり"
+  "kana": "わこうみのり"
+  "engines":
+  - "AIV"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "秋静葉"
+  "kana": "あきしずは"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり静葉"
+  - "しずは"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "秋穣子"
+  "kana": "あきみのりこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり穣子"
+  - "みのりこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "アリス・マーガトロイド"
+  "kana": "ありすまーがとろいど"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりアリス"
+  - "ありす"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "飯綱丸龍"
+  "kana": "いいずなまるめぐむ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり龍"
+  - "めぐむ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "十六夜咲夜"
+  "kana": "いざよいさくや"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり咲夜"
+  - "さくや"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "因幡てゐ"
+  "kana": "いなばてい"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりてゐ"
+  - "てゐ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "犬走椛"
+  "kana": "いぬばしりもみじ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり椛"
+  - "もみじ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "茨木華扇"
+  "kana": "いばらきかせん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり華扇"
+  - "かせん"
+  - "茨華仙"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "伊吹萃香"
+  "kana": "いぶきすいか"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり萃香"
+  - "すいか"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "今泉影狼"
+  "kana": "いまいずみかげろう"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり影狼"
+  - "かげろう"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "宇佐見蓮子"
+  "kana": "うさみれんこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり蓮子"
+  - "れんこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "牛崎潤美"
+  "kana": "うしざきうるみ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり潤美"
+  - "うるみ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "エタニティラルバ"
+  "kana": "えたにてぃらるば"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりエタニティラルバ"
+  - "えたにてぃらるば"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "戎瓔花"
+  "kana": "えびすえいか"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり瓔花"
+  - "えいか"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "奥野田美宵"
+  "kana": "おくのだみよい"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり美宵"
+  - "みよい"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "小野塚小町"
+  "kana": "おのづかこまち"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり小町"
+  - "こまち"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "火焔猫燐"
+  "kana": "かえんびょうりん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりおりん"
+  - "おりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "鍵山雛"
+  "kana": "かぎやまひな"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり雛"
+  - "ひな"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "霍青娥"
+  "kana": "かくせいが"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり青蛾"
+  - "せいが"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "風見幽香"
+  "kana": "かざみゆうか"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり幽香"
+  - "ゆうか"
+  - "のうかりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "幽谷響子"
+  "kana": "かそだにきょうこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり響子"
+  - "きょうこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "上白沢慧音"
+  "kana": "かみしらさわけいね"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり慧音"
+  - "けーね"
+  - "きもけーね"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "河城にとり"
+  "kana": "かわしろにとり"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりにとり"
+  - "にとり"
+  - "メカにとり"
+  - "めかにとり"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "稀神サグメ"
+  "kana": "きしんさぐめ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりサグメ"
+  - "さぐめ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "鬼人正邪"
+  "kana": "きじんせいじゃ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり正邪"
+  - "せいじゃ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "キスメ"
+  "kana": "きすめ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりキスメ"
+  - "きすめ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "吉弔八千慧"
+  "kana": "きっちょうやちえ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり八千慧"
+  - "やちえ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "霧雨魔理沙"
+  "kana": "きりさめまりさ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり魔理沙"
+  - "まりさ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "菅牧典"
+  "kana": "くだまきつかさ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり典"
+  - "つかさ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "雲居一輪"
+  "kana": "くもいいちりん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり一輪"
+  - "いちりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "クラウンピース"
+  "kana": "くらうんぴーす"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりクラウンピース"
+  - "くらうんぴーす"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "驪駒早鬼"
+  "kana": "くろこまさき"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり早鬼"
+  - "さき"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "黒谷ヤマメ"
+  "kana": "くろだにやまめ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりヤマメ"
+  - "やまめ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "小悪魔"
+  "kana": "こあくま"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり小悪魔"
+  - "こあくま"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "豪徳寺ミケ"
+  "kana": "ごうとくじみけ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりミケ"
+  - "みけ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "東風谷早苗"
+  "kana": "こちやさなえ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり早苗"
+  - "さなえ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "駒草山如"
+  "kana": "こまくにさんにょ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり山如"
+  - "さんにょ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "高麗野あうん"
+  "kana": "こまのあうん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりあうん"
+  - "あうん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "古明地こいし"
+  "kana": "こめいじこいし"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりこいし"
+  - "こいし"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "古明地さとり"
+  "kana": "こめいじさとり"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりさとり"
+  - "さとり"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "魂魄妖夢"
+  "kana": "こんばくようむ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり妖夢"
+  - "ようむ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "西行寺幽々子"
+  "kana": "さいぎょうじゆゆこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり幽々子"
+  - "ゆゆこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "冴月麟"
+  "kana": "さえつきりん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり冴月麟"
+  - "さえつきりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "坂田ネムノ"
+  "kana": "さかたねむの"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりネムノ"
+  - "ねむの"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "サニーミルク"
+  "kana": "さにーみるく"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりサニーミルク"
+  - "さにーみるく"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "四季映姫・ヤマザナドゥ"
+  "kana": "しきえいきやまざなどぅ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり映姫"
+  - "えいき"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "射命丸文"
+  "kana": "しゃめいまるあや"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり文"
+  - "あや"
+  - "きめぇ丸"
+  - "きめぇまる"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "シュガーサテラ"
+  "kana": "しゅがーさてら"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "シュガーサテラ"
+  - "しゅがーさてら"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "純狐"
+  "kana": "じゅんこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり純狐"
+  - "じゅんこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "杖刀偶磨弓"
+  "kana": "じょうとうぐうまゆみ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり磨弓"
+  - "まゆみ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "少名針妙丸"
+  "kana": "すくなしんみょうまる"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり針妙丸"
+  - "しんみょうまる"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "スターサファイア"
+  "kana": "すたーさふぁいあ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりスターサファイア"
+  - "すたーさふぁいあ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "清蘭"
+  "kana": "せいらん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり清蘭"
+  - "せいらん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "赤蛮奇"
+  "kana": "せきばんき"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり赤蛮奇"
+  - "せきばんき"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "蘇我屠自古"
+  "kana": "そがのとじこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり屠自古"
+  - "とじこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "大妖精"
+  "kana": "だいようせい"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり大妖精"
+  - "だいようせい"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "多々良小傘"
+  "kana": "たたらこがさ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり小傘"
+  - "こがさ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "玉造魅須丸"
+  "kana": "たまつくりみすまる"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり魅須丸"
+  - "みすまる"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "橙"
+  "kana": "ちぇん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり橙"
+  - "ちぇん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "チルノ"
+  "kana": "ちるの"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりチルノ"
+  - "ちるの"
+  - "⑨"
+  - "バカ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "九十九弁々"
+  "kana": "つくもべんべん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり弁々"
+  - "べんべん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "九十九八橋"
+  "kana": "つくもやつはし"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり八橋"
+  - "やつはし"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "罪袋"
+  "kana": "つみぶくろ"
+  "engines":
+  - "AQ"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "丁礼田舞"
+  "kana": "ていれいだまい"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり舞"
+  - "まい"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "天弓千亦"
+  "kana": "てんきゅうちまた"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり千亦"
+  - "ちまた"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "饕餮尤魔"
+  "kana": "とうてつゆうま"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり尤魔"
+  - "ゆうま"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "朱鷺子"
+  "kana": "ときこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり朱鷺子"
+  - "ときこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "豊聡耳神子"
+  "kana": "とよさとみみのみこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり神子"
+  - "みこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "寅丸星"
+  "kana": "とらまるしょう"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり星"
+  - "しょう"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ドレミー・スイート"
+  "kana": "どれみーすいーと"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりドレミー"
+  - "どれみー"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "永江衣玖"
+  "kana": "ながえいく"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり衣玖"
+  - "いく"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ナズーリン"
+  "kana": "なずーりん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりナズーリン"
+  - "なずーりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "爾子田里乃"
+  "kana": "にしださとの"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり里乃"
+  - "さとの"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "庭渡久侘歌"
+  "kana": "にわたりくたか"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり久侘歌"
+  - "くたか"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "博麗霊夢"
+  "kana": "はくれいれいむ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり霊夢"
+  - "れいむ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "秦こころ"
+  "kana": "はたのこころ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりこころ"
+  - "こころ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "パチュリー・ノーレッジ"
+  "kana": "ぱちゅりーのーれっじ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりパチェリー"
+  - "ぱちぇりー"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "埴安神袿姫"
+  "kana": "はにやすしんけいき"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり袿姫"
+  - "けいき"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "稗田阿求"
+  "kana": "ひえだのあきゅう"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり阿求"
+  - "あきゅう"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "姫海棠はたて"
+  "kana": "ひめかいどうはたて"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりはたて"
+  - "はたて"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "聖白蓮"
+  "kana": "ひじりびゃくれん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり聖"
+  - "ひじり"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "比那名居天子"
+  "kana": "ひなないてんし"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり天子"
+  - "てんこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "姫虫百々世"
+  "kana": "ひめむしももよ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり百々世"
+  - "ももよ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "藤原妹紅"
+  "kana": "ふじわらのもこう"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり妹紅"
+  - "もこう"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "二ツ岩マミゾウ"
+  "kana": "ふたついわまみぞう"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりマミゾウ"
+  - "まみぞう"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "フランドール・スカーレット"
+  "kana": "ふらんどーるすかーれっと"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりフラン"
+  - "ふらん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ヘカーティア・ラピスラズリ"
+  "kana": "へかーてぃあらぴすらずり"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりヘカーティア"
+  - "へかーてぃあ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "封獣ぬえ"
+  "kana": "ほうじゅうぬえ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりぬえ"
+  - "ぬえ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "蓬莱山輝夜"
+  "kana": "ほうらいさんかぐや"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり輝夜"
+  - "かぐや"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "星熊勇儀"
+  "kana": "ほしぐまゆうぎ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり勇儀"
+  - "ゆうぎ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "堀川雷鼓"
+  "kana": "ほりかわらいこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり雷鼓"
+  - "らいこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "紅美鈴"
+  "kana": "ほんめいりん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり美鈴"
+  - "めーりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "マエリベリー・ハーン"
+  "kana": "まえりべりーはーん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりメリー"
+  - "めりー"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "摩多羅隠岐奈"
+  "kana": "またらおきな"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり隠岐奈"
+  - "おきな"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ミスティア・ローレライ"
+  "kana": "みすてぃあろーれり"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりミスチー"
+  - "みすちー"
+  - "みすちー２"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "水橋パルスィ"
+  "kana": "みずはしぱるすぃ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりパルスィ"
+  - "ぱるすぃ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "宮出口瑞霊"
+  "kana": "みやでぐみずち"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり瑞霊"
+  - "みずち"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "宮古芳香"
+  "kana": "みやこよしか"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり芳香"
+  - "よしか"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "村紗水蜜"
+  "kana": "むらさみなみつ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり村紗"
+  - "むらさ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "メディスン・メランコリー"
+  "kana": "めでぃすんめらんこりー"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりメディスン"
+  - "めでぃすん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "メルラン・プリズムリバー"
+  "kana": "めるらんぷりずむりばー"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりメルラン"
+  - "めるらん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "本居小鈴"
+  "kana": "もとおりこすず"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり小鈴"
+  - "こすず"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "物部布都"
+  "kana": "もののべのふと"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり布都"
+  - "ふと"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "森近霖之助"
+  "kana": "もりちかりんのすけ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり香霖"
+  - "こーりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "洩矢諏訪子"
+  "kana": "もりやすわこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり諏訪子"
+  - "すわこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "八雲紫"
+  "kana": "やくもゆかり"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり紫"
+  - "ゆかり"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "八雲藍"
+  "kana": "やくもらん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり藍"
+  - "らん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "八意永琳"
+  "kana": "やごころえいりん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり永琳"
+  - "えーりん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "八坂神奈子"
+  "kana": "やさかかなこ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり神奈子"
+  - "かなこ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "矢田寺成美"
+  "kana": "やたでらなるみ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり成美"
+  - "なるみ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "山城たかね"
+  "kana": "やましろたかね"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりたかね"
+  - "たかね"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "依神紫苑"
+  "kana": "よりがみしおん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり紫苑"
+  - "しおん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "依神女苑"
+  "kana": "よりがみじょおん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり女苑"
+  - "じょおん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "リグル・ナイトバグ"
+  "kana": "りぐるないとばぐ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりリグル"
+  - "りぐる"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "リリーホワイト"
+  "kana": "りりーほわいと"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりリリーホワイト"
+  - "りりーほわいと"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "リリーブラック"
+  "kana": "りりーぶらっく"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりリリーブラック"
+  - "りりーぶらっく"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "リリカ・プリズムリバー"
+  "kana": "りりかぷりずむりばー"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりリリカ"
+  - "りりか"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "鈴瑚"
+  "kana": "りんご"
+  "engines":
+  - "AQ"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ルーミア"
+  "kana": "るーみあ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりルーミア"
+  - "るーみあ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ルナサ・プリズムリバー"
+  "kana": "るなさぷりずむりばー"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりルナサ"
+  - "るなさ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ルナチャイルド"
+  "kana": "るなちゃいるど"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりルナチャイルド"
+  - "るなちゃいるど"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "霊烏路空"
+  "kana": "れいうじうつほ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりお空"
+  - "おくう"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "レイセン"
+  "kana": "れいせん"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりレイセン"
+  - "れいせん"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "鈴仙・優曇華院・イナバ"
+  "kana": "れいせんうどんげいんいなば"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり優曇華"
+  - "うどんげ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "レティ・ホワイトロック"
+  "kana": "れてぃほわいとろっく"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりレティ"
+  - "れてぃ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "レミリア・スカーレット"
+  "kana": "れみりあすかーれっと"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりレミリア"
+  - "れみりあ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "わかさぎ姫"
+  "kana": "わかさぎひめ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくりわかさぎ姫"
+  - "わかさぎひめ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "綿月豊姫"
+  "kana": "わたつきのとよひめ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり豊姫"
+  - "とよひめ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "綿月依姫"
+  "kana": "わたつきのよりひめ"
+  "engines":
+  - "AQ"
+  "another_names":
+  - "ゆっくり依姫"
+  - "よりひめ"
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "ナレーター"
+  "kana": "なれーたー"
+  "engines":
+  - "OTHER"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "その他"
+  "kana": "そのた"
+  "engines":
+  - "OTHER"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "生声"
+  "kana": "なまごえ"
+  "engines":
+  - "OTHER"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "[状況説明]"
+  "kana": "じょうきょうせつめい"
+  "engines":
+  - "NONE"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+- "name": "[なし]"
+  "kana": "なし"
+  "engines":
+  - "NONE"
+  "another_names": []
+  "jimaku_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10
+  "actor_attr":
+    "color": "White"
+    "outline_color": "Black"
+    "outline_width": 10

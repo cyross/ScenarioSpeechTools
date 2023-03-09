@@ -5,8 +5,6 @@ from modules.file import File
 
 # SERIFU FILE
 class Serifu(File):
-    RE = 'regexp'
-    SUB = 'sub'
     ENCODE = 'serifu'
 
     def __init__(self, project, file_path = None, file_encode = None):
@@ -15,32 +13,13 @@ class Serifu(File):
 
         super().__init__(project, path, encode)
 
-        self.actor = self.project.actor
         self.engine = self.project.engine
-        self.sanitizer: dict[str, dict[str, any]] = self._generate_sanitizer()
-
-    def _generate_sanitizer(self):
-        sanitize_regexp = self.engine.sanitize_re
-        regexp = {}
-
-        for key in sanitize_regexp.keys():
-            regexp[key] = []
-            sanitize_pats = sanitize_regexp[key]
-            for pattern in sanitize_pats.keys():
-                regexp[key].append(
-                    {
-                        self.RE: re.compile(pattern),
-                        self.SUB: sanitize_pats[pattern]
-                    }
-                )
-
-        return regexp
 
     def sanitize(self, serifu, engine):
-        if not engine in self.sanitizer.keys():
+        if not engine in self.engine.sanitizer.keys():
             return serifu
 
-        for s_pair in self.sanitizer[engine]:
+        for s_pair in self.engine.sanitizer[engine]:
             serifu = re.sub(s_pair[self.RE], s_pair[self.SUB], serifu)
 
         return serifu

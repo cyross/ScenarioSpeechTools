@@ -1,35 +1,36 @@
 "spec":
-  "AIV":
-    "name": "AI VOICE"
+  - "name": "AIV"
+    "real_name": "AI VOICE"
     "separator": "＞"
-  "AQ":
-    "name": "AquesTalk"
+  - "name": "AQ"
+    "real_name": "AquesTalk"
     "separator": ","
-  "CA":
-    "name": "CeVIO AI"
+  - "name": "CA"
+    "real_name": "CeVIO AI"
     "separator": ","
-  "CC":
-    "name": "CeVIO CS"
+  - "name": "CC"
+    "real_name": "CeVIO CS"
     "separator": ","
-  "VP":
-    "name": "VOICEPEAK"
+  - "name": "VP"
+    "real_name": "VOICEPEAK"
     "separator": ","
-  "VR":
-    "name": "VOICEROID2"
+  - "name": "VR"
+    "real_name": "VOICEROID2"
     "separator": "＞"
-  "VV":
-    "name": "VOICEVOX"
+  - "name": "VV"
+    "real_name": "VOICEVOX"
     "separator": ","
-  "OTHER":
-    "name": "その他"
+  - "name": "OTHER"
+    "real_name": "その他"
     "separator": ","
-  "NONE":
-    "name": "なし"
+  - "name": "NONE"
+    "real_name": "なし"
     "separator": ","
-"none_voice":
-  - "NONE"
-"separate":
-  - "VP"
 "sanitize_regexp":
   "VR":
-    "～": "ー"
+    - "pattern": "～"
+      "sub": "ー"
+"none_voice_engines":
+  - "NONE"
+"separate_actor_engines":
+  - "VP"
