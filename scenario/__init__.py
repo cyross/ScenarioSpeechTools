@@ -16,8 +16,8 @@ class Base:
 
 class Singleton:
     @classmethod
-    def instance(cls):
+    def instance(cls, *plist):
         if not hasattr(cls, '_instance'):
-            cls._instance = cls()
+            cls._instance = cls(*plist)
 
         return cls._instance

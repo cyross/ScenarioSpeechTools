@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from scenario import Base
+from scenario import Base, Singleton
 from scenario.file import load_yaml
 
 # DATA BASE
-class Data(Base):
+class Data(Base, Singleton):
     SPEC = 'spec'
     SANITIZE_RE = 'sanitize_regexp'
 
