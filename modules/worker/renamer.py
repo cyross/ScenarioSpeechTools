@@ -64,6 +64,8 @@ class Renamer(Base):
         return files
 
     def _sort_filepath(self, path_globs, key):
+        # 声優名が入っている場合があるので切り分ける
+        key = key.split('_')[0]
         for sort_type in self.sort_types.keys():
             if key in self.sort_types[sort_type]['keys']:
                 return sorted(path_globs, key=self.sort_types[sort_type]['lambda'])
