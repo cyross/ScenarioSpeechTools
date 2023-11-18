@@ -1,5 +1,5 @@
 "version": 1.0
-"project_base_dir": './projects/'
+"project_base_dir": "./projects/"
 "serifu_file": "serifu.txt"
 "serifu_per_engine_file": "serifu_{0}.txt"
 "jimaku_file": "jimaku.txt"
@@ -22,5 +22,6 @@
   "VP": "utf-8"
   "VR": "shift_jis"
   "VV": "utf-8"
+  "VT": "utf-8"
   "NONE": "utf-8"
   "OTHER": "utf-8"
