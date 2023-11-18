@@ -1,0 +1,65 @@
+Specs:
+- Id: 0
+  Name: AIV
+  RealName: AI VOICE
+  Separator: ＞
+  Encoding: utf-8
+  ExtData: {}
+- Id: 1
+  Name: AQ
+  RealName: AquesTalk
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+- Id: 2
+  Name: CA
+  RealName: CeVIO AI
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+- Id: 3
+  Name: CC
+  RealName: CeVIO CS
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+- Id: 4
+  Name: VP
+  RealName: VOICEPEAK
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+- Id: 5
+  Name: VR
+  RealName: VOICEROID2
+  Separator: ＞
+  Encoding: shift_jis
+  ExtData: {}
+- Id: 6
+  Name: VV
+  RealName: VOICEVOX
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+- Id: 7
+  Name: OTHER
+  RealName: その他
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+- Id: 8
+  Name: NONE
+  RealName: なし
+  Separator: ','
+  Encoding: utf-8
+  ExtData: {}
+SanitizeRegexp:
+  VR:
+  - Id: 0
+    Pattern: ～
+    Sub: ー
+NoneVoiceEngines:
+- NONE
+SeparateActorEngines:
+- VP
+
